@@ -45,6 +45,7 @@
 		4FC295EF2943BCE600A7A066 /* SpellCheckingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpellCheckingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FC295F32943BCE600A7A066 /* SpellCheckingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpellCheckingUITests.swift; sourceTree = "<group>"; };
 		4FC295F52943BCE600A7A066 /* SpellCheckingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpellCheckingUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4FC296032943C10400A7A066 /* Words.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Words.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +96,7 @@
 		4FC295D62943BCE400A7A066 /* SpellChecking */ = {
 			isa = PBXGroup;
 			children = (
+				4FC296022943C0DD00A7A066 /* Resources */,
 				4FC295D72943BCE400A7A066 /* SpellCheckingApp.swift */,
 				4FC295D92943BCE400A7A066 /* ContentView.swift */,
 				4FC295DB2943BCE600A7A066 /* Assets.xcassets */,
@@ -127,6 +129,14 @@
 				4FC295F52943BCE600A7A066 /* SpellCheckingUITestsLaunchTests.swift */,
 			);
 			path = SpellCheckingUITests;
+			sourceTree = "<group>";
+		};
+		4FC296022943C0DD00A7A066 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4FC296032943C10400A7A066 /* Words.txt */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
